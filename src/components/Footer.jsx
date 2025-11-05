@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-semibold text-neutral-900">About</h4>
             <p className="mt-3 text-sm leading-relaxed text-neutral-600">
-              We craft minimal essentials with a focus on quality and longevity. Designed in-house and made responsibly.
+              Balkan Souq brings the flavors of the Arab world to Bosnia — halal groceries, spices, dates, and everyday essentials.
             </p>
           </div>
           <div>
@@ -38,6 +38,7 @@ const Footer = () => {
               />
               <button className="whitespace-nowrap rounded-md bg-neutral-900 px-3 py-2 text-sm text-white hover:bg-neutral-800">Subscribe</button>
             </div>
+            <p className="mt-2 text-xs text-neutral-500">Dobrodošli • أهلاً وسهلاً</p>
             <div className="mt-4 flex items-center gap-3 text-neutral-500">
               <a href="#" aria-label="Instagram" className="rounded-md p-2 hover:bg-neutral-100"><Instagram className="h-4 w-4" /></a>
               <a href="#" aria-label="Twitter" className="rounded-md p-2 hover:bg-neutral-100"><Twitter className="h-4 w-4" /></a>
@@ -46,7 +47,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-neutral-200 pt-6 text-sm text-neutral-500 sm:flex-row">
-          <p>© {new Date().getFullYear()} cleanmart. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Balkan Souq. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <a href="#" className="hover:text-neutral-800">Privacy</a>
             <a href="#" className="hover:text-neutral-800">Terms</a>

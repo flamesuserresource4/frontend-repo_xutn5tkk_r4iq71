@@ -11,16 +11,16 @@ const Navbar = () => {
             <Menu className="h-5 w-5" />
           </button>
           <a href="#" className="font-semibold tracking-tight text-neutral-900">
-            cleanmart
+            Balkan Souq
           </a>
         </div>
 
         {/* Center: Nav links */}
         <nav className="hidden items-center gap-8 text-sm text-neutral-600 lg:flex">
           <a href="#new" className="hover:text-neutral-900">New</a>
-          <a href="#men" className="hover:text-neutral-900">Men</a>
-          <a href="#women" className="hover:text-neutral-900">Women</a>
-          <a href="#home" className="hover:text-neutral-900">Home</a>
+          <a href="#snacks" className="hover:text-neutral-900">Snacks</a>
+          <a href="#spices" className="hover:text-neutral-900">Spices</a>
+          <a href="#dates" className="hover:text-neutral-900">Dates</a>
         </nav>
 
         {/* Right: Search + Actions */}
@@ -32,6 +32,10 @@ const Navbar = () => {
               placeholder="Search products"
               className="w-48 rounded-md border border-neutral-200 bg-white py-2 pl-9 pr-3 text-sm text-neutral-700 placeholder:text-neutral-400 focus:border-neutral-300 focus:outline-none focus:ring-2 focus:ring-neutral-200/60 md:w-64"
             />
+          </div>
+          <div className="hidden items-center gap-2 rounded-md border border-neutral-200 bg-white px-3 py-2 text-xs text-neutral-700 sm:inline-flex">
+            <span>Currency</span>
+            <span className="rounded bg-neutral-100 px-2 py-0.5 font-medium">KM</span>
           </div>
           <button className="inline-flex items-center gap-2 rounded-md border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-700 hover:bg-neutral-50">
             <User className="h-4 w-4" />
